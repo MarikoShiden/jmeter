@@ -1,0 +1,501 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1733347117433,3,Get characters,200,OK,Thread Group 100 1-1,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,1
+1733347117438,1,Create character,200,OK,Thread Group 100 1-1,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117439,1,Get character by id,200,OK,Thread Group 100 1-1,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117440,2,Modify character,200,OK,Thread Group 100 1-1,text,true,,235,241,2,2,http://localhost:3001/character/4,2,0,0
+1733347117442,1,Delete character,200,OK,Thread Group 100 1-1,text,true,,249,216,2,2,http://localhost:3001/character/4,1,0,0
+1733347117442,3,Get characters,200,OK,Thread Group 100 1-2,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,0
+1733347117446,1,Create character,200,OK,Thread Group 100 1-2,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117448,2,Get character by id,200,OK,Thread Group 100 1-2,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347117451,2,Modify character,200,OK,Thread Group 100 1-2,text,true,,235,241,2,2,http://localhost:3001/character/4,2,0,0
+1733347117452,4,Get characters,200,OK,Thread Group 100 1-3,text,true,,321,129,2,2,http://localhost:3001/characters,4,0,1
+1733347117457,1,Delete character,200,OK,Thread Group 100 1-2,text,true,,249,216,2,2,http://localhost:3001/character/4,1,0,0
+1733347117456,3,Create character,200,OK,Thread Group 100 1-3,text,true,,235,242,2,2,http://localhost:3001/character,3,0,0
+1733347117460,0,Get character by id,200,OK,Thread Group 100 1-3,text,true,,235,130,2,2,http://localhost:3001/character/4,0,0,0
+1733347117461,4,Modify character,200,OK,Thread Group 100 1-3,text,true,,235,241,2,2,http://localhost:3001/character/4,4,0,0
+1733347117464,3,Get characters,200,OK,Thread Group 100 1-4,text,true,,321,129,2,2,http://localhost:3001/characters,3,0,0
+1733347117465,3,Delete character,200,OK,Thread Group 100 1-3,text,true,,249,216,2,2,http://localhost:3001/character/4,3,0,0
+1733347117467,3,Create character,200,OK,Thread Group 100 1-4,text,true,,235,242,1,1,http://localhost:3001/character,3,0,0
+1733347117470,1,Get character by id,200,OK,Thread Group 100 1-4,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117471,1,Modify character,200,OK,Thread Group 100 1-4,text,true,,235,241,2,2,http://localhost:3001/character/4,1,0,0
+1733347117473,1,Delete character,200,OK,Thread Group 100 1-4,text,true,,249,216,2,2,http://localhost:3001/character/4,1,0,0
+1733347117472,3,Get characters,200,OK,Thread Group 100 1-5,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,1
+1733347117475,2,Create character,200,OK,Thread Group 100 1-5,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117477,1,Get character by id,200,OK,Thread Group 100 1-5,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117478,1,Modify character,200,OK,Thread Group 100 1-5,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117479,1,Delete character,200,OK,Thread Group 100 1-5,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117483,1,Get characters,200,OK,Thread Group 100 1-6,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347117484,2,Create character,200,OK,Thread Group 100 1-6,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347117486,1,Get character by id,200,OK,Thread Group 100 1-6,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117487,2,Modify character,200,OK,Thread Group 100 1-6,text,true,,235,241,1,1,http://localhost:3001/character/4,2,0,0
+1733347117489,2,Delete character,200,OK,Thread Group 100 1-6,text,true,,249,216,1,1,http://localhost:3001/character/4,2,0,0
+1733347117492,2,Get characters,200,OK,Thread Group 100 1-7,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347117494,3,Create character,200,OK,Thread Group 100 1-7,text,true,,235,242,1,1,http://localhost:3001/character,3,0,0
+1733347117497,1,Get character by id,200,OK,Thread Group 100 1-7,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117498,2,Modify character,200,OK,Thread Group 100 1-7,text,true,,235,241,1,1,http://localhost:3001/character/4,2,0,0
+1733347117500,2,Delete character,200,OK,Thread Group 100 1-7,text,true,,249,216,1,1,http://localhost:3001/character/4,2,0,0
+1733347117502,3,Get characters,200,OK,Thread Group 100 1-8,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,0
+1733347117505,1,Create character,200,OK,Thread Group 100 1-8,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117506,2,Get character by id,200,OK,Thread Group 100 1-8,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347117508,1,Modify character,200,OK,Thread Group 100 1-8,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117509,1,Delete character,200,OK,Thread Group 100 1-8,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117513,3,Get characters,200,OK,Thread Group 100 1-9,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,0
+1733347117516,1,Create character,200,OK,Thread Group 100 1-9,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117517,1,Get character by id,200,OK,Thread Group 100 1-9,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117519,1,Modify character,200,OK,Thread Group 100 1-9,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117520,3,Delete character,200,OK,Thread Group 100 1-9,text,true,,249,216,1,1,http://localhost:3001/character/4,3,0,0
+1733347117523,3,Get characters,200,OK,Thread Group 100 1-10,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,1
+1733347117526,1,Create character,200,OK,Thread Group 100 1-10,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117527,2,Get character by id,200,OK,Thread Group 100 1-10,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347117529,1,Modify character,200,OK,Thread Group 100 1-10,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117530,2,Delete character,200,OK,Thread Group 100 1-10,text,true,,249,216,1,1,http://localhost:3001/character/4,2,0,0
+1733347117533,3,Get characters,200,OK,Thread Group 100 1-11,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,2
+1733347117536,2,Create character,200,OK,Thread Group 100 1-11,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347117538,1,Get character by id,200,OK,Thread Group 100 1-11,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117539,2,Modify character,200,OK,Thread Group 100 1-11,text,true,,235,241,1,1,http://localhost:3001/character/4,2,0,0
+1733347117541,1,Delete character,200,OK,Thread Group 100 1-11,text,true,,249,216,2,2,http://localhost:3001/character/4,1,0,0
+1733347117543,2,Get characters,200,OK,Thread Group 100 1-12,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347117545,2,Create character,200,OK,Thread Group 100 1-12,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347117547,2,Get character by id,200,OK,Thread Group 100 1-12,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347117549,3,Modify character,200,OK,Thread Group 100 1-12,text,true,,235,241,1,1,http://localhost:3001/character/4,3,0,0
+1733347117552,1,Delete character,200,OK,Thread Group 100 1-12,text,true,,249,216,2,2,http://localhost:3001/character/4,1,0,0
+1733347117556,3,Get characters,200,OK,Thread Group 100 1-13,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,0
+1733347117559,1,Create character,200,OK,Thread Group 100 1-13,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117560,1,Get character by id,200,OK,Thread Group 100 1-13,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117561,1,Modify character,200,OK,Thread Group 100 1-13,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117563,1,Delete character,200,OK,Thread Group 100 1-13,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117568,3,Get characters,200,OK,Thread Group 100 1-14,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,1
+1733347117571,4,Create character,200,OK,Thread Group 100 1-14,text,true,,235,242,2,2,http://localhost:3001/character,4,0,0
+1733347117576,1,Get character by id,200,OK,Thread Group 100 1-14,text,true,,235,130,2,2,http://localhost:3001/character/4,1,0,0
+1733347117577,2,Modify character,200,OK,Thread Group 100 1-14,text,true,,235,241,2,2,http://localhost:3001/character/4,2,0,0
+1733347117575,4,Get characters,200,OK,Thread Group 100 1-15,text,true,,321,129,2,2,http://localhost:3001/characters,4,0,3
+1733347117579,2,Create character,200,OK,Thread Group 100 1-15,text,true,,235,242,2,2,http://localhost:3001/character,2,0,0
+1733347117580,3,Delete character,200,OK,Thread Group 100 1-14,text,true,,249,216,3,3,http://localhost:3001/character/4,3,0,0
+1733347117582,2,Get character by id,200,OK,Thread Group 100 1-15,text,true,,235,130,3,3,http://localhost:3001/character/4,2,0,0
+1733347117584,2,Modify character,200,OK,Thread Group 100 1-15,text,true,,235,241,2,2,http://localhost:3001/character/4,2,0,0
+1733347117586,4,Delete character,200,OK,Thread Group 100 1-15,text,true,,249,216,2,2,http://localhost:3001/character/4,4,0,0
+1733347117584,6,Get characters,200,OK,Thread Group 100 1-16,text,true,,318,129,2,2,http://localhost:3001/characters,6,0,1
+1733347117590,2,Create character,200,OK,Thread Group 100 1-16,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347117592,2,Get character by id,200,OK,Thread Group 100 1-16,text,true,,235,130,2,2,http://localhost:3001/character/4,2,0,0
+1733347117593,3,Get characters,200,OK,Thread Group 100 1-17,text,true,,321,129,2,2,http://localhost:3001/characters,3,0,0
+1733347117594,2,Modify character,200,OK,Thread Group 100 1-16,text,true,,235,241,2,2,http://localhost:3001/character/4,2,0,0
+1733347117596,2,Create character,200,OK,Thread Group 100 1-17,text,true,,235,242,2,2,http://localhost:3001/character,2,0,0
+1733347117596,3,Delete character,200,OK,Thread Group 100 1-16,text,true,,249,216,2,2,http://localhost:3001/character/4,3,0,0
+1733347117598,3,Get character by id,200,OK,Thread Group 100 1-17,text,true,,235,130,1,1,http://localhost:3001/character/4,3,0,0
+1733347117602,2,Modify character,200,OK,Thread Group 100 1-17,text,true,,235,241,1,1,http://localhost:3001/character/4,2,0,0
+1733347117604,3,Delete character,200,OK,Thread Group 100 1-17,text,true,,249,216,2,2,http://localhost:3001/character/4,3,0,0
+1733347117604,3,Get characters,200,OK,Thread Group 100 1-18,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,0
+1733347117607,1,Create character,200,OK,Thread Group 100 1-18,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117609,2,Get character by id,200,OK,Thread Group 100 1-18,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347117611,2,Modify character,200,OK,Thread Group 100 1-18,text,true,,235,241,2,2,http://localhost:3001/character/4,2,0,0
+1733347117613,1,Delete character,200,OK,Thread Group 100 1-18,text,true,,249,216,2,2,http://localhost:3001/character/4,1,0,0
+1733347117613,3,Get characters,200,OK,Thread Group 100 1-19,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,0
+1733347117616,1,Create character,200,OK,Thread Group 100 1-19,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117617,2,Get character by id,200,OK,Thread Group 100 1-19,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347117619,1,Modify character,200,OK,Thread Group 100 1-19,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117621,1,Delete character,200,OK,Thread Group 100 1-19,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117623,1,Get characters,200,OK,Thread Group 100 1-20,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347117625,1,Create character,200,OK,Thread Group 100 1-20,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117626,1,Get character by id,200,OK,Thread Group 100 1-20,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117628,1,Modify character,200,OK,Thread Group 100 1-20,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117629,2,Delete character,200,OK,Thread Group 100 1-20,text,true,,249,216,1,1,http://localhost:3001/character/4,2,0,0
+1733347117635,3,Get characters,200,OK,Thread Group 100 1-21,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,1
+1733347117638,2,Create character,200,OK,Thread Group 100 1-21,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117640,2,Get character by id,200,OK,Thread Group 100 1-21,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347117642,2,Modify character,200,OK,Thread Group 100 1-21,text,true,,235,241,1,1,http://localhost:3001/character/4,2,0,0
+1733347117644,1,Delete character,200,OK,Thread Group 100 1-21,text,true,,249,216,2,2,http://localhost:3001/character/4,1,0,0
+1733347117645,2,Get characters,200,OK,Thread Group 100 1-22,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347117648,1,Create character,200,OK,Thread Group 100 1-22,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117650,1,Get character by id,200,OK,Thread Group 100 1-22,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117652,1,Modify character,200,OK,Thread Group 100 1-22,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117653,1,Delete character,200,OK,Thread Group 100 1-22,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117655,3,Get characters,200,OK,Thread Group 100 1-23,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,0
+1733347117659,2,Create character,200,OK,Thread Group 100 1-23,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347117661,3,Get character by id,200,OK,Thread Group 100 1-23,text,true,,235,130,2,2,http://localhost:3001/character/4,3,0,0
+1733347117664,1,Modify character,200,OK,Thread Group 100 1-23,text,true,,235,241,2,2,http://localhost:3001/character/4,1,0,0
+1733347117662,4,Get characters,200,OK,Thread Group 100 1-24,text,true,,321,129,2,2,http://localhost:3001/characters,4,0,1
+1733347117666,1,Delete character,200,OK,Thread Group 100 1-23,text,true,,249,216,2,2,http://localhost:3001/character/4,1,0,0
+1733347117666,2,Create character,200,OK,Thread Group 100 1-24,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347117669,2,Get character by id,200,OK,Thread Group 100 1-24,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347117671,1,Modify character,200,OK,Thread Group 100 1-24,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117672,3,Delete character,200,OK,Thread Group 100 1-24,text,true,,249,216,2,2,http://localhost:3001/character/4,1,0,0
+1733347117674,4,Get characters,200,OK,Thread Group 100 1-25,text,true,,318,129,1,1,http://localhost:3001/characters,4,0,1
+1733347117679,1,Create character,200,OK,Thread Group 100 1-25,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117680,1,Get character by id,200,OK,Thread Group 100 1-25,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117681,1,Modify character,200,OK,Thread Group 100 1-25,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117683,3,Delete character,200,OK,Thread Group 100 1-25,text,true,,249,216,2,2,http://localhost:3001/character/4,3,0,0
+1733347117684,5,Get characters,200,OK,Thread Group 100 1-26,text,true,,318,129,1,1,http://localhost:3001/characters,5,0,2
+1733347117689,2,Create character,200,OK,Thread Group 100 1-26,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347117691,2,Get character by id,200,OK,Thread Group 100 1-26,text,true,,235,130,2,2,http://localhost:3001/character/4,2,0,0
+1733347117694,1,Modify character,200,OK,Thread Group 100 1-26,text,true,,235,241,2,2,http://localhost:3001/character/4,1,0,0
+1733347117693,4,Get characters,200,OK,Thread Group 100 1-27,text,true,,321,129,2,2,http://localhost:3001/characters,4,0,0
+1733347117695,4,Delete character,200,OK,Thread Group 100 1-26,text,true,,249,216,2,2,http://localhost:3001/character/4,4,0,0
+1733347117697,3,Create character,200,OK,Thread Group 100 1-27,text,true,,235,242,2,2,http://localhost:3001/character,3,0,0
+1733347117700,3,Get character by id,200,OK,Thread Group 100 1-27,text,true,,235,130,2,2,http://localhost:3001/character/4,3,0,0
+1733347117703,1,Modify character,200,OK,Thread Group 100 1-27,text,true,,235,241,2,2,http://localhost:3001/character/4,1,0,0
+1733347117702,3,Get characters,200,OK,Thread Group 100 1-28,text,true,,321,129,2,2,http://localhost:3001/characters,3,0,1
+1733347117705,1,Delete character,200,OK,Thread Group 100 1-27,text,true,,249,216,2,2,http://localhost:3001/character/4,1,0,0
+1733347117705,2,Create character,200,OK,Thread Group 100 1-28,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347117707,1,Get character by id,200,OK,Thread Group 100 1-28,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117709,1,Modify character,200,OK,Thread Group 100 1-28,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117710,1,Delete character,200,OK,Thread Group 100 1-28,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117713,2,Get characters,200,OK,Thread Group 100 1-29,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347117715,1,Create character,200,OK,Thread Group 100 1-29,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117717,1,Get character by id,200,OK,Thread Group 100 1-29,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117718,2,Modify character,200,OK,Thread Group 100 1-29,text,true,,235,241,1,1,http://localhost:3001/character/4,2,0,0
+1733347117720,1,Delete character,200,OK,Thread Group 100 1-29,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117723,2,Get characters,200,OK,Thread Group 100 1-30,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347117725,1,Create character,200,OK,Thread Group 100 1-30,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117726,1,Get character by id,200,OK,Thread Group 100 1-30,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117727,1,Modify character,200,OK,Thread Group 100 1-30,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117729,1,Delete character,200,OK,Thread Group 100 1-30,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117735,2,Get characters,200,OK,Thread Group 100 1-31,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347117737,1,Create character,200,OK,Thread Group 100 1-31,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117738,2,Get character by id,200,OK,Thread Group 100 1-31,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347117740,1,Modify character,200,OK,Thread Group 100 1-31,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117741,1,Delete character,200,OK,Thread Group 100 1-31,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117743,4,Get characters,200,OK,Thread Group 100 1-32,text,true,,318,129,1,1,http://localhost:3001/characters,4,0,0
+1733347117747,2,Create character,200,OK,Thread Group 100 1-32,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347117750,1,Get character by id,200,OK,Thread Group 100 1-32,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117751,2,Modify character,200,OK,Thread Group 100 1-32,text,true,,235,241,2,2,http://localhost:3001/character/4,2,0,0
+1733347117754,2,Delete character,200,OK,Thread Group 100 1-32,text,true,,249,216,2,2,http://localhost:3001/character/4,2,0,0
+1733347117753,5,Get characters,200,OK,Thread Group 100 1-33,text,true,,318,129,1,1,http://localhost:3001/characters,5,0,0
+1733347117758,1,Create character,200,OK,Thread Group 100 1-33,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117759,1,Get character by id,200,OK,Thread Group 100 1-33,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117760,1,Modify character,200,OK,Thread Group 100 1-33,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117761,2,Delete character,200,OK,Thread Group 100 1-33,text,true,,249,216,2,2,http://localhost:3001/character/4,2,0,0
+1733347117763,2,Get characters,200,OK,Thread Group 100 1-34,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347117765,2,Create character,200,OK,Thread Group 100 1-34,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347117767,1,Get character by id,200,OK,Thread Group 100 1-34,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117768,1,Modify character,200,OK,Thread Group 100 1-34,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117769,1,Delete character,200,OK,Thread Group 100 1-34,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117773,3,Get characters,200,OK,Thread Group 100 1-35,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,1
+1733347117776,1,Create character,200,OK,Thread Group 100 1-35,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117777,1,Get character by id,200,OK,Thread Group 100 1-35,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117778,2,Modify character,200,OK,Thread Group 100 1-35,text,true,,235,241,1,1,http://localhost:3001/character/4,2,0,0
+1733347117780,3,Delete character,200,OK,Thread Group 100 1-35,text,true,,249,216,1,1,http://localhost:3001/character/4,3,0,0
+1733347117784,2,Get characters,200,OK,Thread Group 100 1-36,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347117786,3,Create character,200,OK,Thread Group 100 1-36,text,true,,235,242,1,1,http://localhost:3001/character,3,0,0
+1733347117789,1,Get character by id,200,OK,Thread Group 100 1-36,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117791,1,Modify character,200,OK,Thread Group 100 1-36,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117792,2,Delete character,200,OK,Thread Group 100 1-36,text,true,,249,216,1,1,http://localhost:3001/character/4,2,0,0
+1733347117796,3,Get characters,200,OK,Thread Group 100 1-37,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,0
+1733347117799,1,Create character,200,OK,Thread Group 100 1-37,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117800,2,Get character by id,200,OK,Thread Group 100 1-37,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347117802,3,Modify character,200,OK,Thread Group 100 1-37,text,true,,235,241,2,2,http://localhost:3001/character/4,3,0,0
+1733347117804,3,Get characters,200,OK,Thread Group 100 1-38,text,true,,318,129,2,2,http://localhost:3001/characters,3,0,2
+1733347117805,3,Delete character,200,OK,Thread Group 100 1-37,text,true,,249,216,2,2,http://localhost:3001/character/4,3,0,0
+1733347117807,9,Create character,200,OK,Thread Group 100 1-38,text,true,,235,242,2,2,http://localhost:3001/character,9,0,0
+1733347117813,4,Get characters,200,OK,Thread Group 100 1-39,text,true,,321,129,2,2,http://localhost:3001/characters,4,0,2
+1733347117816,1,Get character by id,200,OK,Thread Group 100 1-38,text,true,,235,130,2,2,http://localhost:3001/character/4,1,0,0
+1733347117817,2,Create character,200,OK,Thread Group 100 1-39,text,true,,235,242,2,2,http://localhost:3001/character,2,0,0
+1733347117818,4,Modify character,200,OK,Thread Group 100 1-38,text,true,,235,241,2,2,http://localhost:3001/character/4,4,0,0
+1733347117819,3,Get character by id,200,OK,Thread Group 100 1-39,text,true,,235,130,2,2,http://localhost:3001/character/4,3,0,0
+1733347117822,2,Delete character,200,OK,Thread Group 100 1-38,text,true,,249,216,3,3,http://localhost:3001/character/4,2,0,0
+1733347117822,2,Modify character,200,OK,Thread Group 100 1-39,text,true,,235,241,3,3,http://localhost:3001/character/4,2,0,0
+1733347117824,4,Delete character,200,OK,Thread Group 100 1-39,text,true,,249,216,2,2,http://localhost:3001/character/4,4,0,0
+1733347117825,5,Get characters,200,OK,Thread Group 100 1-40,text,true,,318,129,1,1,http://localhost:3001/characters,5,0,0
+1733347117830,3,Create character,200,OK,Thread Group 100 1-40,text,true,,235,242,2,2,http://localhost:3001/character,3,0,0
+1733347117833,2,Get character by id,200,OK,Thread Group 100 1-40,text,true,,235,130,2,2,http://localhost:3001/character/4,2,0,0
+1733347117835,2,Modify character,200,OK,Thread Group 100 1-40,text,true,,235,241,2,2,http://localhost:3001/character/4,2,0,0
+1733347117833,4,Get characters,200,OK,Thread Group 100 1-41,text,true,,321,129,2,2,http://localhost:3001/characters,4,0,3
+1733347117837,1,Delete character,200,OK,Thread Group 100 1-40,text,true,,249,216,2,2,http://localhost:3001/character/4,1,0,0
+1733347117838,2,Create character,200,OK,Thread Group 100 1-41,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347117840,1,Get character by id,200,OK,Thread Group 100 1-41,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117841,1,Modify character,200,OK,Thread Group 100 1-41,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117842,2,Delete character,200,OK,Thread Group 100 1-41,text,true,,249,216,2,2,http://localhost:3001/character/4,2,0,0
+1733347117843,3,Get characters,200,OK,Thread Group 100 1-42,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,0
+1733347117846,1,Create character,200,OK,Thread Group 100 1-42,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117848,1,Get character by id,200,OK,Thread Group 100 1-42,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117849,2,Modify character,200,OK,Thread Group 100 1-42,text,true,,235,241,1,1,http://localhost:3001/character/4,2,0,0
+1733347117851,1,Delete character,200,OK,Thread Group 100 1-42,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117854,3,Get characters,200,OK,Thread Group 100 1-43,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,0
+1733347117857,2,Create character,200,OK,Thread Group 100 1-43,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347117859,1,Get character by id,200,OK,Thread Group 100 1-43,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117860,1,Modify character,200,OK,Thread Group 100 1-43,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117862,1,Delete character,200,OK,Thread Group 100 1-43,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117867,6,Get characters,200,OK,Thread Group 100 1-44,text,true,,318,129,2,2,http://localhost:3001/characters,6,0,0
+1733347117873,1,Create character,200,OK,Thread Group 100 1-44,text,true,,235,242,2,2,http://localhost:3001/character,1,0,0
+1733347117872,4,Get characters,200,OK,Thread Group 100 1-45,text,true,,321,129,2,2,http://localhost:3001/characters,4,0,0
+1733347117875,3,Get character by id,200,OK,Thread Group 100 1-44,text,true,,235,130,2,2,http://localhost:3001/character/4,3,0,0
+1733347117877,2,Create character,200,OK,Thread Group 100 1-45,text,true,,235,242,2,2,http://localhost:3001/character,1,0,0
+1733347117878,2,Modify character,200,OK,Thread Group 100 1-44,text,true,,235,241,2,2,http://localhost:3001/character/4,2,0,0
+1733347117879,2,Get character by id,200,OK,Thread Group 100 1-45,text,true,,235,130,2,2,http://localhost:3001/character/4,2,0,0
+1733347117880,2,Delete character,200,OK,Thread Group 100 1-44,text,true,,249,216,2,2,http://localhost:3001/character/4,2,0,0
+1733347117881,2,Modify character,200,OK,Thread Group 100 1-45,text,true,,235,241,2,2,http://localhost:3001/character/4,2,0,0
+1733347117883,1,Delete character,200,OK,Thread Group 100 1-45,text,true,,249,216,2,2,http://localhost:3001/character/4,1,0,0
+1733347117885,2,Get characters,200,OK,Thread Group 100 1-46,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347117887,1,Create character,200,OK,Thread Group 100 1-46,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117888,1,Get character by id,200,OK,Thread Group 100 1-46,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117889,1,Modify character,200,OK,Thread Group 100 1-46,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117890,1,Delete character,200,OK,Thread Group 100 1-46,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117893,2,Get characters,200,OK,Thread Group 100 1-47,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347117895,1,Create character,200,OK,Thread Group 100 1-47,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117896,1,Get character by id,200,OK,Thread Group 100 1-47,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117897,2,Modify character,200,OK,Thread Group 100 1-47,text,true,,235,241,1,1,http://localhost:3001/character/4,2,0,0
+1733347117899,1,Delete character,200,OK,Thread Group 100 1-47,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117906,2,Get characters,200,OK,Thread Group 100 1-48,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347117908,1,Create character,200,OK,Thread Group 100 1-48,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117909,1,Get character by id,200,OK,Thread Group 100 1-48,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117910,1,Modify character,200,OK,Thread Group 100 1-48,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117911,1,Delete character,200,OK,Thread Group 100 1-48,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117919,1,Get characters,200,OK,Thread Group 100 1-49,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,1
+1733347117921,1,Create character,200,OK,Thread Group 100 1-49,text,true,,235,242,1,1,http://localhost:3001/character,0,0,0
+1733347117922,1,Get character by id,200,OK,Thread Group 100 1-49,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117923,1,Modify character,200,OK,Thread Group 100 1-49,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117924,1,Delete character,200,OK,Thread Group 100 1-49,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117928,2,Get characters,200,OK,Thread Group 100 1-50,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347117930,1,Create character,200,OK,Thread Group 100 1-50,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117931,1,Get character by id,200,OK,Thread Group 100 1-50,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117932,3,Modify character,200,OK,Thread Group 100 1-50,text,true,,235,241,2,2,http://localhost:3001/character/4,3,0,0
+1733347117934,3,Get characters,200,OK,Thread Group 100 1-51,text,true,,321,129,2,2,http://localhost:3001/characters,3,0,0
+1733347117935,3,Delete character,200,OK,Thread Group 100 1-50,text,true,,249,216,2,2,http://localhost:3001/character/4,2,0,0
+1733347117937,1,Create character,200,OK,Thread Group 100 1-51,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117939,1,Get character by id,200,OK,Thread Group 100 1-51,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117940,2,Modify character,200,OK,Thread Group 100 1-51,text,true,,235,241,1,1,http://localhost:3001/character/4,2,0,0
+1733347117942,1,Delete character,200,OK,Thread Group 100 1-51,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117945,1,Get characters,200,OK,Thread Group 100 1-52,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347117947,1,Create character,200,OK,Thread Group 100 1-52,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117948,2,Get character by id,200,OK,Thread Group 100 1-52,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347117950,1,Modify character,200,OK,Thread Group 100 1-52,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117951,2,Delete character,200,OK,Thread Group 100 1-52,text,true,,249,216,1,1,http://localhost:3001/character/4,2,0,0
+1733347117953,2,Get characters,200,OK,Thread Group 100 1-53,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347117955,1,Create character,200,OK,Thread Group 100 1-53,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117956,1,Get character by id,200,OK,Thread Group 100 1-53,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117957,1,Modify character,200,OK,Thread Group 100 1-53,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117958,1,Delete character,200,OK,Thread Group 100 1-53,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117964,2,Get characters,200,OK,Thread Group 100 1-54,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347117966,1,Create character,200,OK,Thread Group 100 1-54,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117967,2,Get character by id,200,OK,Thread Group 100 1-54,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347117969,1,Modify character,200,OK,Thread Group 100 1-54,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117970,1,Delete character,200,OK,Thread Group 100 1-54,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117974,4,Get characters,200,OK,Thread Group 100 1-55,text,true,,318,129,1,1,http://localhost:3001/characters,4,0,0
+1733347117978,2,Create character,200,OK,Thread Group 100 1-55,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347117980,2,Get character by id,200,OK,Thread Group 100 1-55,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347117983,1,Modify character,200,OK,Thread Group 100 1-55,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117984,3,Delete character,200,OK,Thread Group 100 1-55,text,true,,249,216,2,2,http://localhost:3001/character/4,3,0,0
+1733347117986,2,Get characters,200,OK,Thread Group 100 1-56,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347117988,1,Create character,200,OK,Thread Group 100 1-56,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347117989,1,Get character by id,200,OK,Thread Group 100 1-56,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347117990,1,Modify character,200,OK,Thread Group 100 1-56,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117991,1,Delete character,200,OK,Thread Group 100 1-56,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347117992,2,Get characters,200,OK,Thread Group 100 1-57,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347117994,0,Create character,200,OK,Thread Group 100 1-57,text,true,,235,242,1,1,http://localhost:3001/character,0,0,0
+1733347117995,0,Get character by id,200,OK,Thread Group 100 1-57,text,true,,235,130,1,1,http://localhost:3001/character/4,0,0,0
+1733347117995,1,Modify character,200,OK,Thread Group 100 1-57,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347117996,1,Delete character,200,OK,Thread Group 100 1-57,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118004,1,Get characters,200,OK,Thread Group 100 1-58,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118005,1,Create character,200,OK,Thread Group 100 1-58,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118006,1,Get character by id,200,OK,Thread Group 100 1-58,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118007,1,Modify character,200,OK,Thread Group 100 1-58,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118008,0,Delete character,200,OK,Thread Group 100 1-58,text,true,,249,216,1,1,http://localhost:3001/character/4,0,0,0
+1733347118015,1,Get characters,200,OK,Thread Group 100 1-59,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118016,1,Create character,200,OK,Thread Group 100 1-59,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118017,1,Get character by id,200,OK,Thread Group 100 1-59,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118018,1,Modify character,200,OK,Thread Group 100 1-59,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118019,1,Delete character,200,OK,Thread Group 100 1-59,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118025,1,Get characters,200,OK,Thread Group 100 1-60,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118026,1,Create character,200,OK,Thread Group 100 1-60,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118027,1,Get character by id,200,OK,Thread Group 100 1-60,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118028,1,Modify character,200,OK,Thread Group 100 1-60,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118029,1,Delete character,200,OK,Thread Group 100 1-60,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118034,2,Get characters,200,OK,Thread Group 100 1-61,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347118036,1,Create character,200,OK,Thread Group 100 1-61,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118037,0,Get character by id,200,OK,Thread Group 100 1-61,text,true,,235,130,1,1,http://localhost:3001/character/4,0,0,0
+1733347118038,0,Modify character,200,OK,Thread Group 100 1-61,text,true,,235,241,1,1,http://localhost:3001/character/4,0,0,0
+1733347118038,1,Delete character,200,OK,Thread Group 100 1-61,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118047,1,Get characters,200,OK,Thread Group 100 1-62,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118048,1,Create character,200,OK,Thread Group 100 1-62,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118049,1,Get character by id,200,OK,Thread Group 100 1-62,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118050,1,Modify character,200,OK,Thread Group 100 1-62,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118051,1,Delete character,200,OK,Thread Group 100 1-62,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118054,2,Get characters,200,OK,Thread Group 100 1-63,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347118056,1,Create character,200,OK,Thread Group 100 1-63,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118061,1,Get character by id,200,OK,Thread Group 100 1-63,text,true,,235,130,2,2,http://localhost:3001/character/4,1,0,0
+1733347118062,3,Modify character,200,OK,Thread Group 100 1-63,text,true,,235,241,2,2,http://localhost:3001/character/4,3,0,0
+1733347118063,2,Get characters,200,OK,Thread Group 100 1-64,text,true,,321,129,2,2,http://localhost:3001/characters,2,0,0
+1733347118065,2,Create character,200,OK,Thread Group 100 1-64,text,true,,235,242,2,2,http://localhost:3001/character,2,0,0
+1733347118065,4,Delete character,200,OK,Thread Group 100 1-63,text,true,,249,216,2,2,http://localhost:3001/character/4,4,0,0
+1733347118067,3,Get character by id,200,OK,Thread Group 100 1-64,text,true,,235,130,1,1,http://localhost:3001/character/4,3,0,0
+1733347118070,1,Modify character,200,OK,Thread Group 100 1-64,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118071,2,Delete character,200,OK,Thread Group 100 1-64,text,true,,249,216,1,1,http://localhost:3001/character/4,2,0,0
+1733347118074,2,Get characters,200,OK,Thread Group 100 1-65,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347118076,1,Create character,200,OK,Thread Group 100 1-65,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118078,1,Get character by id,200,OK,Thread Group 100 1-65,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118079,1,Modify character,200,OK,Thread Group 100 1-65,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118080,2,Delete character,200,OK,Thread Group 100 1-65,text,true,,249,216,1,1,http://localhost:3001/character/4,2,0,0
+1733347118083,2,Get characters,200,OK,Thread Group 100 1-66,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347118085,1,Create character,200,OK,Thread Group 100 1-66,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118086,1,Get character by id,200,OK,Thread Group 100 1-66,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118087,2,Modify character,200,OK,Thread Group 100 1-66,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118089,6,Delete character,200,OK,Thread Group 100 1-66,text,true,,249,216,2,2,http://localhost:3001/character/4,6,0,0
+1733347118095,3,Get characters,200,OK,Thread Group 100 1-67,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,0
+1733347118098,2,Create character,200,OK,Thread Group 100 1-67,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118100,1,Get character by id,200,OK,Thread Group 100 1-67,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118101,1,Modify character,200,OK,Thread Group 100 1-67,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118102,2,Delete character,200,OK,Thread Group 100 1-67,text,true,,249,216,1,1,http://localhost:3001/character/4,2,0,0
+1733347118105,1,Get characters,200,OK,Thread Group 100 1-68,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,1
+1733347118107,2,Create character,200,OK,Thread Group 100 1-68,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347118109,1,Get character by id,200,OK,Thread Group 100 1-68,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118110,1,Modify character,200,OK,Thread Group 100 1-68,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118111,2,Delete character,200,OK,Thread Group 100 1-68,text,true,,249,216,2,2,http://localhost:3001/character/4,1,0,0
+1733347118113,2,Get characters,200,OK,Thread Group 100 1-69,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347118115,1,Create character,200,OK,Thread Group 100 1-69,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118116,2,Get character by id,200,OK,Thread Group 100 1-69,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347118118,1,Modify character,200,OK,Thread Group 100 1-69,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118119,2,Delete character,200,OK,Thread Group 100 1-69,text,true,,249,216,1,1,http://localhost:3001/character/4,2,0,0
+1733347118123,2,Get characters,200,OK,Thread Group 100 1-70,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347118125,1,Create character,200,OK,Thread Group 100 1-70,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118126,2,Get character by id,200,OK,Thread Group 100 1-70,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347118128,1,Modify character,200,OK,Thread Group 100 1-70,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118129,2,Delete character,200,OK,Thread Group 100 1-70,text,true,,249,216,1,1,http://localhost:3001/character/4,2,0,0
+1733347118133,3,Get characters,200,OK,Thread Group 100 1-71,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,1
+1733347118136,1,Create character,200,OK,Thread Group 100 1-71,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118137,1,Get character by id,200,OK,Thread Group 100 1-71,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118138,1,Modify character,200,OK,Thread Group 100 1-71,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118140,1,Delete character,200,OK,Thread Group 100 1-71,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118143,2,Get characters,200,OK,Thread Group 100 1-72,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347118145,2,Create character,200,OK,Thread Group 100 1-72,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347118147,2,Get character by id,200,OK,Thread Group 100 1-72,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347118149,1,Modify character,200,OK,Thread Group 100 1-72,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118150,1,Delete character,200,OK,Thread Group 100 1-72,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118153,2,Get characters,200,OK,Thread Group 100 1-73,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347118155,1,Create character,200,OK,Thread Group 100 1-73,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118156,1,Get character by id,200,OK,Thread Group 100 1-73,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118157,1,Modify character,200,OK,Thread Group 100 1-73,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118158,1,Delete character,200,OK,Thread Group 100 1-73,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118163,2,Get characters,200,OK,Thread Group 100 1-74,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347118166,2,Create character,200,OK,Thread Group 100 1-74,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347118169,1,Get character by id,200,OK,Thread Group 100 1-74,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118170,1,Modify character,200,OK,Thread Group 100 1-74,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118171,1,Delete character,200,OK,Thread Group 100 1-74,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118174,1,Get characters,200,OK,Thread Group 100 1-75,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118175,2,Create character,200,OK,Thread Group 100 1-75,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347118177,1,Get character by id,200,OK,Thread Group 100 1-75,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118178,1,Modify character,200,OK,Thread Group 100 1-75,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118179,1,Delete character,200,OK,Thread Group 100 1-75,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118183,1,Get characters,200,OK,Thread Group 100 1-76,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118185,1,Create character,200,OK,Thread Group 100 1-76,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118186,1,Get character by id,200,OK,Thread Group 100 1-76,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118187,1,Modify character,200,OK,Thread Group 100 1-76,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118188,0,Delete character,200,OK,Thread Group 100 1-76,text,true,,249,216,1,1,http://localhost:3001/character/4,0,0,0
+1733347118193,1,Get characters,200,OK,Thread Group 100 1-77,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118195,0,Create character,200,OK,Thread Group 100 1-77,text,true,,235,242,1,1,http://localhost:3001/character,0,0,0
+1733347118196,0,Get character by id,200,OK,Thread Group 100 1-77,text,true,,235,130,1,1,http://localhost:3001/character/4,0,0,0
+1733347118196,2,Modify character,200,OK,Thread Group 100 1-77,text,true,,235,241,1,1,http://localhost:3001/character/4,2,0,0
+1733347118198,1,Delete character,200,OK,Thread Group 100 1-77,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118202,2,Get characters,200,OK,Thread Group 100 1-78,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347118204,1,Create character,200,OK,Thread Group 100 1-78,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118205,0,Get character by id,200,OK,Thread Group 100 1-78,text,true,,235,130,1,1,http://localhost:3001/character/4,0,0,0
+1733347118205,1,Modify character,200,OK,Thread Group 100 1-78,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118206,1,Delete character,200,OK,Thread Group 100 1-78,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118213,1,Get characters,200,OK,Thread Group 100 1-79,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118214,1,Create character,200,OK,Thread Group 100 1-79,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118215,1,Get character by id,200,OK,Thread Group 100 1-79,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118216,1,Modify character,200,OK,Thread Group 100 1-79,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118217,1,Delete character,200,OK,Thread Group 100 1-79,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118223,2,Get characters,200,OK,Thread Group 100 1-80,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347118225,1,Create character,200,OK,Thread Group 100 1-80,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118226,0,Get character by id,200,OK,Thread Group 100 1-80,text,true,,235,130,1,1,http://localhost:3001/character/4,0,0,0
+1733347118226,1,Modify character,200,OK,Thread Group 100 1-80,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118227,1,Delete character,200,OK,Thread Group 100 1-80,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118233,1,Get characters,200,OK,Thread Group 100 1-81,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118234,1,Create character,200,OK,Thread Group 100 1-81,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118235,0,Get character by id,200,OK,Thread Group 100 1-81,text,true,,235,130,1,1,http://localhost:3001/character/4,0,0,0
+1733347118236,0,Modify character,200,OK,Thread Group 100 1-81,text,true,,235,241,1,1,http://localhost:3001/character/4,0,0,0
+1733347118236,1,Delete character,200,OK,Thread Group 100 1-81,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118243,1,Get characters,200,OK,Thread Group 100 1-82,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118245,1,Create character,200,OK,Thread Group 100 1-82,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118246,1,Get character by id,200,OK,Thread Group 100 1-82,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118247,1,Modify character,200,OK,Thread Group 100 1-82,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118248,1,Delete character,200,OK,Thread Group 100 1-82,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118252,2,Get characters,200,OK,Thread Group 100 1-83,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347118254,1,Create character,200,OK,Thread Group 100 1-83,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118255,0,Get character by id,200,OK,Thread Group 100 1-83,text,true,,235,130,1,1,http://localhost:3001/character/4,0,0,0
+1733347118255,1,Modify character,200,OK,Thread Group 100 1-83,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118256,1,Delete character,200,OK,Thread Group 100 1-83,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118262,2,Get characters,200,OK,Thread Group 100 1-84,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347118264,1,Create character,200,OK,Thread Group 100 1-84,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118266,1,Get character by id,200,OK,Thread Group 100 1-84,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118267,1,Modify character,200,OK,Thread Group 100 1-84,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118268,1,Delete character,200,OK,Thread Group 100 1-84,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118273,2,Get characters,200,OK,Thread Group 100 1-85,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347118275,1,Create character,200,OK,Thread Group 100 1-85,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118276,0,Get character by id,200,OK,Thread Group 100 1-85,text,true,,235,130,1,1,http://localhost:3001/character/4,0,0,0
+1733347118276,2,Modify character,200,OK,Thread Group 100 1-85,text,true,,235,241,1,1,http://localhost:3001/character/4,2,0,0
+1733347118278,1,Delete character,200,OK,Thread Group 100 1-85,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118283,1,Get characters,200,OK,Thread Group 100 1-86,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118285,0,Create character,200,OK,Thread Group 100 1-86,text,true,,235,242,1,1,http://localhost:3001/character,0,0,0
+1733347118286,0,Get character by id,200,OK,Thread Group 100 1-86,text,true,,235,130,1,1,http://localhost:3001/character/4,0,0,0
+1733347118286,1,Modify character,200,OK,Thread Group 100 1-86,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118287,1,Delete character,200,OK,Thread Group 100 1-86,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118292,2,Get characters,200,OK,Thread Group 100 1-87,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347118294,0,Create character,200,OK,Thread Group 100 1-87,text,true,,235,242,1,1,http://localhost:3001/character,0,0,0
+1733347118295,0,Get character by id,200,OK,Thread Group 100 1-87,text,true,,235,130,1,1,http://localhost:3001/character/4,0,0,0
+1733347118295,1,Modify character,200,OK,Thread Group 100 1-87,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118296,1,Delete character,200,OK,Thread Group 100 1-87,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118303,1,Get characters,200,OK,Thread Group 100 1-88,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118305,1,Create character,200,OK,Thread Group 100 1-88,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118306,1,Get character by id,200,OK,Thread Group 100 1-88,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118307,1,Modify character,200,OK,Thread Group 100 1-88,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118309,1,Delete character,200,OK,Thread Group 100 1-88,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118313,3,Get characters,200,OK,Thread Group 100 1-89,text,true,,318,129,1,1,http://localhost:3001/characters,3,0,0
+1733347118316,1,Create character,200,OK,Thread Group 100 1-89,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118317,2,Get character by id,200,OK,Thread Group 100 1-89,text,true,,235,130,1,1,http://localhost:3001/character/4,2,0,0
+1733347118319,1,Modify character,200,OK,Thread Group 100 1-89,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118320,1,Delete character,200,OK,Thread Group 100 1-89,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118323,1,Get characters,200,OK,Thread Group 100 1-90,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,1
+1733347118324,2,Create character,200,OK,Thread Group 100 1-90,text,true,,235,242,1,1,http://localhost:3001/character,2,0,0
+1733347118326,0,Get character by id,200,OK,Thread Group 100 1-90,text,true,,235,130,1,1,http://localhost:3001/character/4,0,0,0
+1733347118326,1,Modify character,200,OK,Thread Group 100 1-90,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118327,1,Delete character,200,OK,Thread Group 100 1-90,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118332,2,Get characters,200,OK,Thread Group 100 1-91,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347118334,1,Create character,200,OK,Thread Group 100 1-91,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118335,0,Get character by id,200,OK,Thread Group 100 1-91,text,true,,235,130,1,1,http://localhost:3001/character/4,0,0,0
+1733347118336,0,Modify character,200,OK,Thread Group 100 1-91,text,true,,235,241,1,1,http://localhost:3001/character/4,0,0,0
+1733347118336,1,Delete character,200,OK,Thread Group 100 1-91,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118342,2,Get characters,200,OK,Thread Group 100 1-92,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347118344,0,Create character,200,OK,Thread Group 100 1-92,text,true,,235,242,1,1,http://localhost:3001/character,0,0,0
+1733347118345,1,Get character by id,200,OK,Thread Group 100 1-92,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118346,1,Modify character,200,OK,Thread Group 100 1-92,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118347,1,Delete character,200,OK,Thread Group 100 1-92,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118353,1,Get characters,200,OK,Thread Group 100 1-93,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118355,0,Create character,200,OK,Thread Group 100 1-93,text,true,,235,242,1,1,http://localhost:3001/character,0,0,0
+1733347118355,1,Get character by id,200,OK,Thread Group 100 1-93,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118356,1,Modify character,200,OK,Thread Group 100 1-93,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118357,1,Delete character,200,OK,Thread Group 100 1-93,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118362,2,Get characters,200,OK,Thread Group 100 1-94,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,0
+1733347118364,1,Create character,200,OK,Thread Group 100 1-94,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118365,0,Get character by id,200,OK,Thread Group 100 1-94,text,true,,235,130,1,1,http://localhost:3001/character/4,0,0,0
+1733347118366,1,Modify character,200,OK,Thread Group 100 1-94,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118367,1,Delete character,200,OK,Thread Group 100 1-94,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118373,2,Get characters,200,OK,Thread Group 100 1-95,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347118376,1,Create character,200,OK,Thread Group 100 1-95,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118377,0,Get character by id,200,OK,Thread Group 100 1-95,text,true,,235,130,1,1,http://localhost:3001/character/4,0,0,0
+1733347118377,1,Modify character,200,OK,Thread Group 100 1-95,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118378,2,Delete character,200,OK,Thread Group 100 1-95,text,true,,249,216,1,1,http://localhost:3001/character/4,2,0,0
+1733347118384,1,Get characters,200,OK,Thread Group 100 1-96,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118385,1,Create character,200,OK,Thread Group 100 1-96,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118386,1,Get character by id,200,OK,Thread Group 100 1-96,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118387,0,Modify character,200,OK,Thread Group 100 1-96,text,true,,235,241,1,1,http://localhost:3001/character/4,0,0,0
+1733347118387,1,Delete character,200,OK,Thread Group 100 1-96,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118394,1,Get characters,200,OK,Thread Group 100 1-97,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118395,1,Create character,200,OK,Thread Group 100 1-97,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118396,0,Get character by id,200,OK,Thread Group 100 1-97,text,true,,235,130,1,1,http://localhost:3001/character/4,0,0,0
+1733347118397,0,Modify character,200,OK,Thread Group 100 1-97,text,true,,235,241,1,1,http://localhost:3001/character/4,0,0,0
+1733347118398,0,Delete character,200,OK,Thread Group 100 1-97,text,true,,249,216,1,1,http://localhost:3001/character/4,0,0,0
+1733347118403,1,Get characters,200,OK,Thread Group 100 1-98,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118404,1,Create character,200,OK,Thread Group 100 1-98,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118405,1,Get character by id,200,OK,Thread Group 100 1-98,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118406,0,Modify character,200,OK,Thread Group 100 1-98,text,true,,235,241,1,1,http://localhost:3001/character/4,0,0,0
+1733347118407,0,Delete character,200,OK,Thread Group 100 1-98,text,true,,249,216,1,1,http://localhost:3001/character/4,0,0,0
+1733347118413,2,Get characters,200,OK,Thread Group 100 1-99,text,true,,318,129,1,1,http://localhost:3001/characters,2,0,1
+1733347118415,1,Create character,200,OK,Thread Group 100 1-99,text,true,,235,242,1,1,http://localhost:3001/character,1,0,0
+1733347118416,1,Get character by id,200,OK,Thread Group 100 1-99,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118417,1,Modify character,200,OK,Thread Group 100 1-99,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118418,1,Delete character,200,OK,Thread Group 100 1-99,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
+1733347118423,1,Get characters,200,OK,Thread Group 100 1-100,text,true,,318,129,1,1,http://localhost:3001/characters,1,0,0
+1733347118425,0,Create character,200,OK,Thread Group 100 1-100,text,true,,235,242,1,1,http://localhost:3001/character,0,0,0
+1733347118425,1,Get character by id,200,OK,Thread Group 100 1-100,text,true,,235,130,1,1,http://localhost:3001/character/4,1,0,0
+1733347118426,1,Modify character,200,OK,Thread Group 100 1-100,text,true,,235,241,1,1,http://localhost:3001/character/4,1,0,0
+1733347118427,1,Delete character,200,OK,Thread Group 100 1-100,text,true,,249,216,1,1,http://localhost:3001/character/4,1,0,0
